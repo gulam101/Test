@@ -41,7 +41,7 @@
                         <h2>Account Menu</h2>
                         <hr>
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a class="underline-anim" href="#"><i class="fa-regular fa-house-chimney"></i> Home </a>
+                        <a class="underline-anim" href="/index.html"><i class="fa-regular fa-house-chimney"></i> Home </a>
                         <a class="active" href="#"><i class="fa-regular fa-user"></i> My Account </a>
                         <a class="underline-anim" href="/dist/courses.html"><i class="fa-regular fa-plus"></i> More courses </a>
                         <a class="underline-anim" href="#"><i class="fa-regular fa-calendar"></i> Events </a>
@@ -112,14 +112,16 @@
                   </div>
                   <p>Setup Google Authenticator with your account to allow you to track people who log into your account</p>
                   <a href="https://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid">
-                    <button onclick="document.getElementById('id04').style.display='block' "class="sign-up animation" style="width:auto;"> Google Authenticator</button>
+                    <button onclick="document.getElementById('').style.display='block' "class="sign-up animation" style="width:auto;"> Google Authenticator</button>
                   </a>
             </div>
 
             <div class="account-container-btn">
+              <div class="class-info">
                 <p><b>Warning: This does not delete your account, if you wish to delete your
                     account please follow the instructions in the email, this will allow you to delete your account!
                 </b> </p>
+              </div>
                 <button onclick="document.getElementById('id01').style.display='block' "class="warning" style="width:auto;">Deactivate Account</button>
             </div>
         </div>
@@ -132,6 +134,18 @@
 .modal-content animate {
 padding-left: 50px;
 padding-right: 50px;
+}
+
+.class-info {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.container-sm {
+  border: 1px solid #2a9df4;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: none;
 }
 
 .modal {
